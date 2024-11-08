@@ -52,6 +52,7 @@ function calculate() {
         }
 
         resultScreen.value = result;
+        operationScreen.textContent = operation.replace('*','×');
     } catch (error) {
         resultScreen.value = 'Syntax Error';
     }
